@@ -11,12 +11,16 @@ function App() {
               <header>
                   <div class="header-root">
                       <div class="rubric" id="rubric">
-                          <a class="link" href="https://www.theatlantic.com/health/"
-                              data-action="click link - section rubric"
-                              data-label="https://www.theatlantic.com/health/">
-                          Health</a>
+                          <a class="link" href="https://www.nimh.nih.gov/health/find-help/index.shtml">
+                          NIH Health</a>
+                          <a class="link" href="https://www.mentalhealth.gov/get-help/immediate-help">
+                          Mental Health</a>
+                          <a class="link" href="https://www.nami.org/help">NAMI</a>
+                          <a class="link" href="https://www.betterhelp.com/advice/depression/fighting-depression-jokes-to-make-you-smile/">BetterHelp</a>
                       </div>
-                      <h1 class="root">The Pandemic Has Made us isolated, but</h1>
+                  </div>
+                  <div class="header-root">
+                      <h1 class="root">The Pandemic Has Made us Isolated, but</h1>
                       <div class="root">
                           <p class="hed">You Are Not Alone.</p>
                       </div>

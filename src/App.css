@@ -46,7 +46,7 @@
 
 .link {
     color: #e7131a;
-    text-decoration: none;
+    margin-right: 2em;
 }
 
 .hed {
@@ -57,6 +57,7 @@
     line-height: 1.125;
     letter-spacing: 0;
     font-weight: 100;
+    color: #0000FF;
 }
 
 .root {

@@ -15,7 +15,6 @@ class MoodComponent extends Component{
 
     depressed = (e) => {
         e.preventDefault();
-        console.log("depression is called");
         ApiService.searchTwitter("depression")
             .then((res) => {
                 console.log("res " , res.data);
@@ -25,7 +24,6 @@ class MoodComponent extends Component{
 
     anxious = (e) => {
         e.preventDefault();
-        console.log("anxiety is called");
         ApiService.searchTwitter("anxiety")
             .then((res) => {
                 console.log("res " , res);
@@ -35,7 +33,6 @@ class MoodComponent extends Component{
 
     stressed = (e) => {
         e.preventDefault();
-        console.log("stressed is called");
         ApiService.searchTwitter("stressed")
             .then((res) => {
                 console.log("res " , res);
@@ -45,7 +42,6 @@ class MoodComponent extends Component{
 
     sad = (e) => {
         e.preventDefault();
-        console.log("sad is called");
         ApiService.searchTwitter("sadness")
             .then((res) => {
                 console.log("res " , res);
@@ -65,7 +61,6 @@ class MoodComponent extends Component{
 
                 <form>
                 <div>
-                     <label className="root">I had a rough day:</label>
                      <br/>
                      <div class="divider"/>
                      <button className="btn btn-warning" onClick={this.depressed}>Depressed</button>
