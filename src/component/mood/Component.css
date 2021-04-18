@@ -1,0 +1,21 @@
+.divider{
+    width:5px;
+    height:auto;
+    display:inline-block;
+}
+
+.root {
+    font-size: 20px;
+    font-family: AGaramondPro,Adobe Garamond Pro,garamond,georgia,serif;
+    color: #000;
+    flex-basis: 100%;
+    margin: 0 0 16px;
+}
+
+.root-blue {
+    font-size: 20px;
+    font-family: AGaramondPro,Adobe Garamond Pro,garamond,georgia,serif;
+    color: #0000FF;
+    flex-basis: 100%;
+    margin: 0 0 16px;
+}
